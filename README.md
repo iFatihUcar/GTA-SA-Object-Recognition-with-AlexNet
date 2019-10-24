@@ -1,0 +1,1 @@
+GTA San Andreas Oyununda Nesne Tanıma
