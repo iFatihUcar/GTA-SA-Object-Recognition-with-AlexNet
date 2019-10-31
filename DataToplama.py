@@ -7,7 +7,7 @@ import cv2
 # last_time = time.time()
 # while True:
 #     resim = grab_screen((200,230,1000,640))
-#     print("AQ")
+#     print("Nö")
 #     print("FPS {} ".format(time.time()-last_time))
 #     last_time = time.time()
 #     cv2.imshow("Pencere", resim)
