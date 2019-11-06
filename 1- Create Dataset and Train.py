@@ -64,7 +64,7 @@ model.compile(optimizer="Adam",
 ############# MODELİ EĞİTMEK ############
 
 
-model.fit(train_X,train_Y,epochs= 20, batch_size = 64)
+model.fit(train_X,train_Y,epochs= 18, batch_size = 128)
 
 
 
@@ -82,4 +82,9 @@ testHuman = cv2.cvtColor(testHuman, cv2.COLOR_RGB2GRAY)
 
 testPen = np.array([testCar])
 model.predict(testPen.reshape(-1,1,224,224))
+
+
+#################### MODELİ KAYDET #######################
+
+model.save('GTA.h5')
 
