@@ -1,0 +1,8 @@
+from keras import models
+from keras import layers
+from keras.layers import Dense, Flatten, Reshape
+
+model = models.Sequential()
+model.add(layers.Dense(2048,activation = "relu", input_shape = (1,224,224,)))
+model.add(Flatten())
+model.add(layers.Dense(2, activation = "softmax"))
