@@ -3,14 +3,10 @@ import time
 from grabscreen import grab_screen
 import cv2
 
-
-
-#
 # ####### EKRAN TESTİ İÇİN
 # last_time = time.time()
 # while True:
-#     resim = grab_screen((200,230,1000,640))
-#     resim = cv2.cvtColor(resim, cv2.COLOR_BGR2RGB)
+#     resim = grab_screen((101,51,650,600))
 #     print("Nö")
 #     print("FPS {} ".format(time.time()-last_time))
 #     last_time = time.time()
@@ -19,15 +15,18 @@ import cv2
 #         cv2.destroyAllWindows()
 #         break
 
+# KAYIT KISMI
 sayı = 0
+sayac=0
 while True:
     key = keyboard.read_key()
     if key == "k" or key == "K":
         sayı += 1
-        print("Aynen kanka oldu")
-        resim = grab_screen()
+        sayac += 1
+        print(sayac)
+        resim = grab_screen((101,51,650,600))
         resim = cv2.cvtColor(resim, cv2.COLOR_BGR2RGB)
-        cv2.imwrite("Araba\Araba-"+ str(sayı)+".jpg", resim)
+        cv2.imwrite("car\car-"+ str(sayı)+".jpg", resim)
         time.sleep(0.1)
     if key == "p":
         while True:
