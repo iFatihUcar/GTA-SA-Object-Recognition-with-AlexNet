@@ -11,6 +11,7 @@ If you want to run algorithm. You must setup this following librarys.
 - costum grabscreen algoritihm created by Frannecklp
 - keyboard
 
+Here is the modded game link : GAME LINK
 
 <h1> Dataset </h1>
 
@@ -35,6 +36,9 @@ Dataset collectec by İsmail Fatih Uçar
 
 
 <h1> Data Augmentation </h1>
+
+I used 3 augmentation method. Here is the samples.
+
 
 
 
