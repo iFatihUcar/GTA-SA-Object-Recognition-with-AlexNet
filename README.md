@@ -12,17 +12,17 @@ If you want to run algorithm. You must setup this following librarys.
 - keyboard
 
 
-Dataset
+<h1> Dataset </h1>
 
 Dataset contains 5000 car image 5000 human image.
 Here is the some samples.
 
-Human
+<h4> Human </h4>
 
 ![human](https://github.com/mcagricaliskan/GTA-SA-Object-Recognition/blob/master/Dataset/human/human-24.jpg?raw=true)
 
 
-Car
+<h4> Car </h4>
 
 ![car](https://github.com/mcagricaliskan/GTA-SA-Object-Recognition/blob/master/Dataset/car/car-14.jpg?raw=true)
 
@@ -34,7 +34,7 @@ Here is the link : [Dataset LINK](https://www.mediafire.com/file/uqa8v4ej9jz884o
 I used AlexNet. AlexNet is a CNN model.
 
 
-Data Augmentation
+<h1> Data Augmentation </h1>
 
 
 
