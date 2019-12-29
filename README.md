@@ -31,7 +31,7 @@ Here is the some samples.
 Dataset is 1 GB. so i cant upload here. I upload it MeadiaFire.
 Here is the link : [Dataset LINK](https://www.mediafire.com/file/uqa8v4ej9jz884o/Dataset.rar/file).
 
-I used AlexNet. AlexNet is a CNN model.
+Dataset collectec by İsmail Fatih Uçar
 
 
 <h1> Data Augmentation </h1>
