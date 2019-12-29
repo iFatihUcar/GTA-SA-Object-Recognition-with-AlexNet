@@ -37,7 +37,11 @@ Dataset collectec by İsmail Fatih Uçar
 
 <h1> Data Augmentation </h1>
 
-I used 3 augmentation method. Here is the samples.
+First I resized images to 224x224 and recolor it gray for feeding CNN.
+
+I used 3 augmentation method. ( need to be increased with different and useful methods for this case.)
+
+
 
 
 
