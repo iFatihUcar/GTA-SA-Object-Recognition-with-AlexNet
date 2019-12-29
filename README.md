@@ -14,7 +14,7 @@ If you want to run algorithm. You must setup this following librarys.
 
 <h1> Dataset </h1>
 
-Dataset contains 5000 car image 5000 human image.
+Dataset contains 5000 car and image 5000 human image.
 Here is the some samples.
 
 <h4> Human </h4>
