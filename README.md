@@ -13,6 +13,8 @@ If you want to run algorithm. You must setup this following librarys.
 
 Here is the modded game link : GAME LINK
 
+Here is the trained model : CNN MODEL
+
 <h1> Dataset </h1>
 
 Dataset contains 5000 car and image 5000 human image.
