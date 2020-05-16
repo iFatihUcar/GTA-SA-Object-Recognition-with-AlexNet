@@ -13,7 +13,7 @@ If you want to run algorithm. You must setup this following librarys.
 
 Here is the modded game link : GAME LINK
 
-Here is the trained model : [CNN MODEL](https://www.mediafire.com/file/s8ljjiczhx0hddo/GTA%2825.12.5%29.rar/file)
+Here is the trained model : [CNN MODEL ( old version ) ](https://www.mediafire.com/file/s8ljjiczhx0hddo/GTA%2825.12.5%29.rar/file)
 
 <h1> Dataset </h1>
 
@@ -39,7 +39,7 @@ Dataset collectec by İsmail Fatih Uçar
 
 <h1> Data Augmentation </h1>
 
-First I resized images to 224x224 and recolor it gray for feeding CNN.
+First I resized images to 227x227 and recolor it gray for feeding CNN.
 
 I used 3 augmentation method. ( need to be increased with different and useful methods for this case.)
 
